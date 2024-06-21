@@ -135,13 +135,13 @@ def segment_audio(
 
 def _parse_args():
     parser = argparse.ArgumentParser(
-        description="Run long-form inference using GigaAM-RNNT checkpoint"
+        description="Run long-form inference using RNNT checkpoint"
     )
     parser.add_argument(
-        "--model_config", help="Path to GigaAM-RNNT config file (.yaml)"
+        "--model_config", help="Path to RNNT config file (.yaml)"
     )
     parser.add_argument(
-        "--model_weights", help="Path to GigaAM-RNNT checkpoint file (.ckpt)"
+        "--model_weights", help="Path to RNNT checkpoint file (.ckpt)"
     )
     parser.add_argument("--tokenizer_path", help="Path to tokenizer directory")
     parser.add_argument("--audio_path", help="Path to audio signal")
