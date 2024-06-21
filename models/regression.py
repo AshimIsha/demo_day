@@ -20,40 +20,7 @@ def load_model(v_path, m_path):
 def process_topic(topic):
     model = joblib.load(MODEL_PATH)
     vectorizer = joblib.load(VECTORIZER_PATH)
-    
     new_data_tfidf = vectorizer.transform(topic)
     predictions = model.predict(new_data_tfidf)
     
-    #print(predictions, topic[:2])
-    
     return map(int, predictions)
-
-#new_data = ["привет как дела"]
-#process_topic(new_data)
-
-#def _parse_args():
-#    parser = argparse.ArgumentParser(
-#        description="Run text classification"
-#    )
-#    parser.add_argument(
-#        "--intro", help="Path intro part of lesson"
-#    )
-#    parser.add_argument(
-#        "--midle", help="Path midle part of lesson"
-#   )
-#    
-#    parser.add_argument(
-#        "--end", help="Path end of lesson"
-#    )
-#    
-#    return parser.parse_args()
-
-    
-
-#if __name__ == "__main__":
-#    args = _parse_args()
-#    main(
-#        intro=args.intro,
-#        midle=args.midle,
-#        end=args.end,
-#    )
