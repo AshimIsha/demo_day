@@ -355,7 +355,7 @@ with gr.Blocks() as demo:
         if os.path.isfile("./segments_diar/end.wav"):
             os.remove("./segments_diar/end.wav")
                     
-        run_model = 'python ./models/rnnt.py --model_config ./models/rnnt_model_config.yaml --model_weights ./models/rnnt_model_weights.ckpt --tokenizer_path ./models/tokenizer_all_sets --device cuda --audio_path ./models/full_audio.wav --hf_token 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'
+        run_model = 'python ./models/rnnt.py --model_config ./models/rnnt_model_config.yaml --model_weights ./models/rnnt_model_weights.ckpt --tokenizer_path ./models/tokenizer_all_sets --device cuda --audio_path ./models/full_audio.wav --hf_token <token>'
         path = "../models"
         shutil.copy(input_video, path)
         converter.make_wav(input_video)
