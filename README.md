@@ -7,7 +7,7 @@
 
 ---
 
-![demo](https://www.youtube.com/watch?v=aDGq0TzJrqc "demo 1h video")
+[demo](https://www.youtube.com/watch?v=aDGq0TzJrqc "demo 1h video")
 
 #### Обработка 2 часов до 2х минут 
 
@@ -17,4 +17,4 @@
 
 ---
 
-![presentation](https://docs.google.com/presentation/d/1_UAX2Y9y2yuSZxQxVFmaaiffL0y7gkS9/edit?usp=sharing&ouid=112844964734891770101&rtpof=true&sd=true "presentation")
+[presentation](https://docs.google.com/presentation/d/1_UAX2Y9y2yuSZxQxVFmaaiffL0y7gkS9/edit?usp=sharing&ouid=112844964734891770101&rtpof=true&sd=true "presentation")
