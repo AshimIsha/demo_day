@@ -1,13 +1,13 @@
-pip install -r requirements.txt
-(при установке зависимостей на windows могут возникнуть ошибки с пакетом Nemo-Nvidia. фиксится ручным запуском reinstall.sh в папке site-packages)
+#### pip install -r requirements.txt
+#### при установке зависимостей на windows могут возникнуть ошибки с пакетом Nemo-Nvidia. фиксится ручным запуском reinstall.sh в папке site-packages
 
-uvicorn main:app
+#### uvicorn main:app
 
 ## Демо на видео длительностью 1 час 
 
 ---
 
-![demo](https://www.youtube.com/watch?v=aDGq0TzJrqc "demo 1h video")
+## ![demo](https://www.youtube.com/watch?v=aDGq0TzJrqc "demo 1h video")
 
 #### Обработка 2 часов до 2х минут 
 
@@ -17,4 +17,4 @@ uvicorn main:app
 
 ---
 
-![presentation](https://docs.google.com/presentation/d/1_UAX2Y9y2yuSZxQxVFmaaiffL0y7gkS9/edit?usp=sharing&ouid=112844964734891770101&rtpof=true&sd=true "presentation")
+## ![presentation](https://docs.google.com/presentation/d/1_UAX2Y9y2yuSZxQxVFmaaiffL0y7gkS9/edit?usp=sharing&ouid=112844964734891770101&rtpof=true&sd=true "presentation")
